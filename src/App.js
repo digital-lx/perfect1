@@ -1,25 +1,35 @@
 import logo from './logo.svg';
 import './App.css';
+import "../src/styles/styles.scss";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+<div className="card">
+<img className='image' src="https://source.unsplash.com/random" alt=' use image by unspash API '/>
+<div className='cardBody'>
+<h2> demo for scss </h2>
+<p> According to Wikipedia sass is a preprocessor scripting language that is interpreted or compiled into Cascading Style Sheets (CSS).</p>
+<button> Read More</button>
+</div>
+</div>
+<div className="card">
+<img className='image' src="https://source.unsplash.com/random" alt=' use image by unspash API '/>
+<div className='cardBody'>
+<h2> demo for scss </h2>
+<p> According to Wikipedia sass is a preprocessor scripting language that is interpreted or compiled into Cascading Style Sheets (CSS).</p>
+<button> Read More</button>
+</div>
+</div>
+<div className="card">
+<img className='image' src="https://source.unsplash.com/random" alt=' use image by unspash API '/>
+<div className='cardBody'>
+<h2> demo for scss </h2>
+<p> According to Wikipedia sass is a preprocessor scripting language that is interpreted or compiled into Cascading Style Sheets (CSS).</p>
+<button> Read More</button>
+</div>
+</div>
+</>  );
 }
 
 export default App;
